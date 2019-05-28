@@ -17,18 +17,12 @@ int main()
     int len3 = 1000000;
     int arr3[len3];
 
-    populateArray(arr1, len1);
-    populateArray(arr2, len2);
-    populateArray(arr3, len3);
-
-
     std::cout << "Sequential QuickSort times: " << std::endl << std::endl;
     seq_test(arr1,len1);
     seq_test(arr2,len2);
     seq_test(arr3,len3);
 
-
-    std::cout << "OpenMP QuickSort times: " << std::endl << std::endl;
+    std::cout << "OpenMP QuickSort times, num threads= : " << omp_get_max_threads() << std::endl << std::endl;
     omp_test(arr1,len1);
     omp_test(arr2,len2);
     omp_test(arr3,len3);
