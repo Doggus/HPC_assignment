@@ -276,6 +276,7 @@ void mpi_quicksort(int N)
         printf("array size: %d\n", N);
         printf("Sorted: %d\n", validate(fullArr, N));
         printf("Time taken: %lf seconds\n", end-start);
+        printf("\n");
         free((void *) fullArr);
         free((void *) sizeArr);
         free((void *) displacement);

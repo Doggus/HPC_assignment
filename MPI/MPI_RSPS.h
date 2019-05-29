@@ -54,7 +54,7 @@ void phase2(int *array, int startIndex, int subArraySize, int *pivots, int *part
             phase2Pivots[i] = collectedPivots[(((i + 1) * p) + (p / 2)) - 1];
         }
     }
-    //发送广播
+
     MPI_Bcast(phase2Pivots, p - 1, MPI_INT, 0, MPI_COMM_WORLD);
     for (i = 0; i < subArraySize; i++)
     {
@@ -67,7 +67,7 @@ void phase2(int *array, int startIndex, int subArraySize, int *pivots, int *part
             partitionSizes[p - 1] = subArraySize - i + 1;
             break;
         }
-        partitionSizes[index]++;   //划分大小自增
+        partitionSizes[index]++; 
     }
     free(collectedPivots);
     free(phase2Pivots);
@@ -235,6 +235,7 @@ void psrs_mpi(int N)
         printf("Array size: %d\n", N);
         printf("Sorted: %d\n", validate(array, N));
         printf("Time taken: %f\n", time);
+        printf("\n");
     }
 
 }

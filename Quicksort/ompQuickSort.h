@@ -17,7 +17,7 @@ void omp_quicksort(int[], int, int);
 //records time for omp quicksort
 double omp_RecordTime(int[], int);
 //testing function
-void omp_test(int[],int);
+void omp_test(int,int);
 
 int omp_partition(int array[], int l, int h)
 {
@@ -82,19 +82,26 @@ double omp_RecordTime(int arr[], int len)
     return time;
 }
 
-void omp_test(int arr[], int len)
+void omp_test(int len, int itr)
 {
 
-    populateArray(arr, len);
+    //defining array and size
+    int arr[len];
 
-    //Recording omp completion time
-    double time = omp_RecordTime(arr,len);
 
-    std::cout << "array size: " << len << std::endl;
-    std::cout << "Sorted: " << validate(arr,len) << std::endl;
-    std::cout << "time: " << time << std::endl;
+    float totalTime = 0;
+    for (int i = 0; i < itr; i++)
+    {
+        populateArray(arr, len);
+        totalTime += omp_RecordTime(arr, len);
+    }
 
-    std::cout << std::endl;
+    float avgTime = totalTime/itr;
+
+    printf("Array Size: %d\n", len);
+    printf("Number of runs: %d\n", itr);
+    printf("Average Time: %f\n", avgTime);
+    printf("\n");
 }
 
 

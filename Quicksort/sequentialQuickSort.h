@@ -15,7 +15,7 @@ void quicksort(int[],int,int);
 //returns time taken to run quicksort sequentially
 double seq_RecordTime(int[], int);
 //testing function
-void seq_test(int[],int);
+void seq_test(int,int);
 
 int partition(int array[], int l, int h)
 {
@@ -59,20 +59,26 @@ double seq_RecordTime(int arr[], int len)
     return time;
 }
 
-void seq_test(int arr[], int len)
+void seq_test(int len, int itr)
 {
 
-    populateArray(arr, len);
+    //defining array and size
+    int arr[len];
 
-    //Recording seq completion time
-    double time = seq_RecordTime(arr,len);
 
-    std::cout << "array size: " << len << std::endl;
-    std::cout << "Sorted: " << validate(arr,len) << std::endl;
-    std::cout << "time: " << time << std::endl;
+    float totalTime = 0;
+    for (int i = 0; i < itr; i++)
+    {
+        populateArray(arr, len);
+        totalTime += seq_RecordTime(arr, len);
+    }
 
-    std::cout << std::endl;
+    float avgTime = totalTime/itr;
 
+    printf("Array Size: %d\n", len);
+    printf("Number of runs: %d\n", itr);
+    printf("Average Time: %f\n", avgTime);
+    printf("\n");
 }
 
 #endif //QUICKSORT_SEQUENTIALQUICKSORT_H

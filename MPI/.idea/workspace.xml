@@ -12,34 +12,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab37819-91a6-4bd9-9200-bb8182453a01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MPI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MPI.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MPI_Quicksort.h" beforeDir="false" afterPath="$PROJECT_DIR$/MPI_Quicksort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MPI_RSPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/MPI_RSPS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MPI_quicksort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/MPI.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MPI_RSPS.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MPI_RSPS.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_Quicksort/dataManagement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_Quicksort/mpi_quicksort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/MPI_RSPS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_RSPS/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/MPI.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_RSPS/MPI_Quicksort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/MPI_RSPS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/MPI_RSPS.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_RSPS/dataManagement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/main.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/MPI_quicksort.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/modules.xml" beforeDir="false" />
@@ -75,6 +93,19 @@
       <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/quicksort" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/quicksort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/ompQuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/ompQuickSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/sequentialQuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/sequentialQuickSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/omp_RegSampleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/omp_RegSampleSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../arrayData1,000,000.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../arrayData10,000.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../arrayData100,000.txt" beforeDir="false" />
@@ -99,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -123,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MPI_Quicksort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4155">
+            <state relative-caret-position="484">
               <caret line="277" column="53" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="53" />
               <folding>
                 <element signature="e#134#161#0" expanded="true" />
@@ -194,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,13 +237,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Quicksort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -260,16 +291,17 @@
       <workItem from="1559153755144" duration="755000" />
       <workItem from="1559154597791" duration="1419000" />
       <workItem from="1559156028951" duration="10000" />
+      <workItem from="1559163814239" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10405000" />
+    <option name="totallyTimeSpent" value="10448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28002214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28334257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,16 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MPI_RSPS.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3090">
@@ -324,9 +346,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataManagement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#70#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MPI_Quicksort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4155">
+        <state relative-caret-position="484">
           <caret line="277" column="53" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="53" />
           <folding>
             <element signature="e#134#161#0" expanded="true" />
@@ -334,12 +366,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataManagement.h">
+    <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#70#88#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
