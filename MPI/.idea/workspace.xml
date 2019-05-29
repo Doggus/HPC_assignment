@@ -11,13 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ab37819-91a6-4bd9-9200-bb8182453a01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MPI_Quicksort.h" beforeDir="false" afterPath="$PROJECT_DIR$/MPI_Quicksort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MPI_RSPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/MPI_RSPS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="2ab37819-91a6-4bd9-9200-bb8182453a01" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MPI_RSPS.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="232" column="42" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
+            <state relative-caret-position="-356">
+              <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
               <folding>
                 <element signature="e#74#93#0" expanded="true" />
               </folding>
@@ -146,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RSPS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -197,16 +191,15 @@
       <workItem from="1559156028951" duration="10000" />
       <workItem from="1559163814239" duration="43000" />
       <workItem from="1559167211575" duration="629000" />
-      <workItem from="1559169365190" duration="383000" />
+      <workItem from="1559169365190" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11460000" />
+    <option name="totallyTimeSpent" value="12168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2899834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MPI_RSPS.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="232" column="42" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
+        <state relative-caret-position="-356">
+          <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
           <folding>
             <element signature="e#74#93#0" expanded="true" />
           </folding>

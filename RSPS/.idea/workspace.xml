@@ -13,152 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc38298-16e7-4fea-a59f-9b7de0204853" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/MPI_Quicksort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/MPI_Quicksort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/MPI_RSPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/MPI_RSPS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_Quicksort/dataManagement.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_Quicksort/mpi_quicksort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/MPI_RSPS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/MPI_Quicksort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/MPI_RSPS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/MPI_RSPS.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/dataManagement.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_RSPS/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/MPI_quicksort.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/MPI_quicksort.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/MPI_quicksort.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/quicksort" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/cmake-build-debug/quicksort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/ompQuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/ompQuickSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/quicksort.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/quicksort.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quicksort/sequentialQuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/sequentialQuickSort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regularSampleParallelSort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/RegularSampleParallelSort.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/RegularSampleSort.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/dataManagement.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/omp_RegSampleSort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/regularSampleParallelSort.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arrayData1,000,000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arrayData10,000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arrayData100,000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataManagement.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ompQuickSort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quicksort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sequentialQuickSort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp_RegSampleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/omp_RegSampleSort.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,7 +28,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regularSampleParallelSort.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -182,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omp_RegSampleSort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5610">
-              <caret line="374" column="23" selection-start-line="374" selection-start-column="23" selection-end-line="374" selection-end-column="23" />
+            <state relative-caret-position="5194">
+              <caret line="414" column="14" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
               <folding>
                 <element signature="e#133#149#0" expanded="true" />
               </folding>
@@ -195,6 +50,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -231,14 +91,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MPI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -281,16 +141,18 @@
       <workItem from="1559163858591" duration="18000" />
       <workItem from="1559165032606" duration="599000" />
       <workItem from="1559167201970" duration="8000" />
+      <workItem from="1559171007267" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5063000" />
+    <option name="totallyTimeSpent" value="6028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2733813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -342,8 +204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/omp_RegSampleSort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="374" column="23" selection-start-line="374" selection-start-column="23" selection-end-line="374" selection-end-column="23" />
+        <state relative-caret-position="5194">
+          <caret line="414" column="14" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
           <folding>
             <element signature="e#133#149#0" expanded="true" />
           </folding>

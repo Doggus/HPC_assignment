@@ -37,16 +37,20 @@ void psrs_sort(int *a, int n)
 {
     if (n > 1)
     {
+        printf("1");
         if (n <= 55)
         {
+            printf("1");
             // Testing shows that sequential insertion sort is quickest when n <= 55 (approx.)
             insertion_sort(a, n);
         } else if (n <= 10000)
         {
+
             // Testing shows that sequential merge sort is quickest when n <= 10000(approx.)
             merge_sort(a, n);
         } else
         {
+            printf("2");
             // Testing shows that our algorithm is now the quickest
             int p, size, rsize, sample_size;
             int *sample, *pivots;
@@ -60,6 +64,7 @@ void psrs_sort(int *a, int n)
 
             if (p > n)
             {
+
                 p = floor(pow(n, 0.33));
                 p -= p % 2;
             } else
@@ -68,12 +73,12 @@ void psrs_sort(int *a, int n)
                 p -= p % 2;
             }
 
+            printf("3");
             omp_set_num_threads(p);
 
             size = (n + p - 1) / p;
             rsize = (size + p - 1) / p;
             sample_size = p * (p - 1);
-
             loc_a_ptrs = malloc(p * sizeof(int *));
             sample = malloc(sample_size * sizeof(int));
             partition_borders = malloc(p * (p + 1) * sizeof(int));
@@ -81,7 +86,7 @@ void psrs_sort(int *a, int n)
             result_positions = malloc(p * sizeof(int));
             pivots = malloc((p - 1) * sizeof(int));
 
-#pragma omp parallel
+            #pragma omp parallel
             {
                 int i, j, max, thread_num, start, end, loc_size, offset, this_result_size;
                 int *loc_a, *this_result, *current_a;
@@ -93,6 +98,8 @@ void psrs_sort(int *a, int n)
                 loc_size = (end - start + 1);
                 end = end % size;
 
+                printf("4");
+
                 loc_a = malloc(loc_size * sizeof(int));
                 memcpy(loc_a, a + start, loc_size * sizeof(int));
                 loc_a_ptrs[thread_num] = loc_a;
@@ -100,6 +107,7 @@ void psrs_sort(int *a, int n)
                 sortll(loc_a, loc_size); // Testing shows that this sequential sort is quickest in this instance
 
                 offset = thread_num * (p - 1) - 1;
+
 
                 for (i = 1; i < p; i++)
                 {
@@ -112,9 +120,11 @@ void psrs_sort(int *a, int n)
                     }
                 }
 
-#pragma omp barrier
+                printf("5");
 
-#pragma omp single
+                #pragma omp barrier
+
+                #pragma omp single
                 {
                     merge_sort(sample,
                                sample_size); // Testing shows that this sequential sort is quickest in this instance
@@ -124,14 +134,16 @@ void psrs_sort(int *a, int n)
                     }
                 }
 
-#pragma omp barrier
+                #pragma omp barrier
 
                 offset = thread_num * (p + 1);
                 partition_borders[offset] = 0;
                 partition_borders[offset + p] = end + 1;
                 calc_partition_borders(loc_a, 0, loc_size - 1, partition_borders, offset, pivots, 1, p - 1);
 
-#pragma omp barrier
+                #pragma omp barrier
+
+                printf("6");
 
                 max = p * (p + 1);
                 bucket_sizes[thread_num] = 0;
@@ -140,9 +152,9 @@ void psrs_sort(int *a, int n)
                     bucket_sizes[thread_num] += partition_borders[i + 1] - partition_borders[i];
                 }
 
-#pragma omp barrier
+                #pragma omp barrier
 
-#pragma omp single
+                #pragma omp single
                 {
                     result_positions[0] = 0;
                     for (i = 1; i < p; i++)
@@ -151,7 +163,8 @@ void psrs_sort(int *a, int n)
                     }
                 }
 
-#pragma omp barrier
+                printf("7");
+                #pragma omp barrier
 
                 this_result = a + result_positions[thread_num];
 
@@ -184,9 +197,11 @@ void psrs_sort(int *a, int n)
                 sortll(this_result,
                        this_result_size); // Testing shows that this sequential sort is quickest in this instance
 
-#pragma omp barrier
+                #pragma omp barrier
                 free(loc_a);
             }
+
+            printf("8");
 
             free(loc_a_ptrs);
             free(sample);
@@ -238,6 +253,8 @@ void calc_partition_borders(int array[],    // array being sorted
     {
         calc_partition_borders(array, lowerbound, end, result, at, pivots, mid + 1, last_pv);
     }
+
+    printf("9");
 }
 
 
@@ -246,6 +263,8 @@ int lcompare(const void *ptr2num1, const void *ptr2num2)
 {
     int num1 = *((int *) ptr2num1);
     int num2 = *((int *) ptr2num2);
+
+    printf("10");
 
     if (num1 > num2)
         return 1;
@@ -260,6 +279,7 @@ int lcompare(const void *ptr2num1, const void *ptr2num2)
 void sortll(int *a, int len)
 {
     qsort(a, len, sizeof(int), lcompare);
+    printf("11");
 }
 
 
@@ -287,6 +307,8 @@ int *merge(int *left, int *right, int l_end, int r_end)
 {
     int temp_off, l_off, r_off, size = l_end + r_end;
     int *temp = malloc(sizeof(int) * l_end);
+
+    printf("12");
 
     // Copy lower half into temp buffer
     for (l_off = 0, temp_off = 0; left + l_off != right; l_off++, temp_off++)
@@ -331,6 +353,9 @@ int *merge(int *left, int *right, int l_end, int r_end)
         }
         l_off++;
     }
+
+    printf("13");
+
     free(temp);
     return left;
 }
@@ -339,6 +364,7 @@ int *merge(int *left, int *right, int l_end, int r_end)
 void insertion_sort(int *arr, int n)
 {
     int i, j, k, temp;
+    printf("13");
 
     for (i = 1; i <= n; i++)
     {
@@ -363,6 +389,8 @@ float omp_RecordTime(int *arr, int len)
     float start_time = omp_get_wtime();
     psrs_sort(arr, len);
     float time = omp_get_wtime() - start_time;
+    printf("13");
+
     return time;
 }
 
@@ -373,6 +401,7 @@ void omp_test(int len, int itr)
     int arr[len];
 
     float totalTime = 0;
+    printf("14");
 
     for (int i = 0; i < itr; ++i)
     {
@@ -383,6 +412,7 @@ void omp_test(int len, int itr)
     float avgTime = totalTime/itr;
     //Recording omp completion time
 
+    printf("15");
 
     printf("Array Size: %d\n", len);
     printf("Number of runs: %d\n", itr);
