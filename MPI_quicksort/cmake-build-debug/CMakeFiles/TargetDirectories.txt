@@ -1,0 +1,3 @@
+/home/liron/CLionProjects/hpcAssignment/MPI_quicksort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liron/CLionProjects/hpcAssignment/MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir
+/home/liron/CLionProjects/hpcAssignment/MPI_quicksort/cmake-build-debug/CMakeFiles/edit_cache.dir

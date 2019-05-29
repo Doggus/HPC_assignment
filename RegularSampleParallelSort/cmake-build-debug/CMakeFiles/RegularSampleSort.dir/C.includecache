@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/dataManagement.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp_RegSampleSort.h
+omp.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp.h
+stdio.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/stdio.h
+string.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/string.h
+stdlib.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/stdlib.h
+math.h
+-
+
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/regularSampleParallelSort.c
+stdio.h
+-
+dataManagement.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/dataManagement.h
+omp_RegSampleSort.h
+/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp_RegSampleSort.h
+
