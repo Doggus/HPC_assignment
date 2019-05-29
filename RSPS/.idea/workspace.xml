@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc38298-16e7-4fea-a59f-9b7de0204853" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/omp_RegSampleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/omp_RegSampleSort.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regularSampleParallelSort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omp_RegSampleSort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5194">
-              <caret line="414" column="14" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
+            <state relative-caret-position="465">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
               <folding>
                 <element signature="e#133#149#0" expanded="true" />
               </folding>
@@ -141,12 +140,12 @@
       <workItem from="1559163858591" duration="18000" />
       <workItem from="1559165032606" duration="599000" />
       <workItem from="1559167201970" duration="8000" />
-      <workItem from="1559171007267" duration="965000" />
+      <workItem from="1559171007267" duration="1733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6028000" />
+    <option name="totallyTimeSpent" value="6796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -197,15 +196,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regularSampleParallelSort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/omp_RegSampleSort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5194">
-          <caret line="414" column="14" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
+        <state relative-caret-position="465">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding>
             <element signature="e#133#149#0" expanded="true" />
           </folding>
