@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#ifndef QUICKSORT_DATAMANAGEMENT_H
-#define QUICKSORT_DATAMANAGEMENT_H
+#ifndef REGULARSAMPLESORT_DATAMANAGEMENT_H
+#define REGULARSAMPLESORT_DATAMANAGEMENT_H
 
 int validate(int[],int);
 void populateArray(int[], int);
@@ -34,4 +34,4 @@ void populateArray(int array[], int size)
 }
 
 
-#endif //QUICKSORT_DATAMANAGEMENT_H
+#endif //REGULARSAMPLESORT_DATAMANAGEMENT_H

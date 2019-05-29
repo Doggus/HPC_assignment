@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liron/CLionProjects/hpcAssignment/quicksort/quicksort.cpp" "/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o"
+  "/home/liron/CLionProjects/HPC/Quicksort/quicksort.cpp" "/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

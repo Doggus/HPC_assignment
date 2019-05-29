@@ -1,4 +1,4 @@
-/snap/clion/70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liron/CLionProjects/hpcAssignment/quicksort
+/snap/clion/70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liron/CLionProjects/HPC/Quicksort
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug
+-- Build files have been written to: /home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug

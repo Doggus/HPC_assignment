@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="quicksort" targetName="quicksort" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1492b7ae-1cb5-4af9-8173-9276fec2198f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MPI_RSPS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Quicksort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/MPI_quicksort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/MPI_quicksort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/MPI_quicksort.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/MPI_quicksort.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI_quicksort/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/quicksort.dir/quicksort.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/quicksort" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/quicksort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/quicksort.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/quicksort.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/RegularSampleSort.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/RegularSampleSort.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RegularSampleParallelSort/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularSampleParallelSort/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arrayData1,000,000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arrayData10,000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arrayData100,000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataManagement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ompQuickSort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quicksort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequentialQuickSort.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataManagement.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quicksort.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1140" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="quicksort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quicksort" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="quicksort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quicksort" TARGET_NAME="quicksort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quicksort" RUN_TARGET_NAME="quicksort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1492b7ae-1cb5-4af9-8173-9276fec2198f" name="Default Changelist" comment="" />
+      <created>1559139505186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559139505186</updated>
+      <workItem from="1559139506270" duration="15000" />
+      <workItem from="1559140410001" duration="571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="586000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataManagement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quicksort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/liron/CLionProjects/hpcAssignment/quicksort/dataManagement.h
+/home/liron/CLionProjects/HPC/Quicksort/dataManagement.h
 fstream
 -
 iostream
 -
 
-/home/liron/CLionProjects/hpcAssignment/quicksort/ompQuickSort.h
+/home/liron/CLionProjects/HPC/Quicksort/ompQuickSort.h
 math.h
 -
 omp.h
 -
 sequentialQuickSort.h
-/home/liron/CLionProjects/hpcAssignment/quicksort/sequentialQuickSort.h
+/home/liron/CLionProjects/HPC/Quicksort/sequentialQuickSort.h
 string
 -
 
-/home/liron/CLionProjects/hpcAssignment/quicksort/quicksort.cpp
+/home/liron/CLionProjects/HPC/Quicksort/quicksort.cpp
 iostream
 -
 dataManagement.h
-/home/liron/CLionProjects/hpcAssignment/quicksort/dataManagement.h
+/home/liron/CLionProjects/HPC/Quicksort/dataManagement.h
 sequentialQuickSort.h
-/home/liron/CLionProjects/hpcAssignment/quicksort/sequentialQuickSort.h
+/home/liron/CLionProjects/HPC/Quicksort/sequentialQuickSort.h
 ompQuickSort.h
-/home/liron/CLionProjects/hpcAssignment/quicksort/ompQuickSort.h
+/home/liron/CLionProjects/HPC/Quicksort/ompQuickSort.h
 
-/home/liron/CLionProjects/hpcAssignment/quicksort/sequentialQuickSort.h
+/home/liron/CLionProjects/HPC/Quicksort/sequentialQuickSort.h
 omp.h
 -
 dataManagement.h
-/home/liron/CLionProjects/hpcAssignment/quicksort/dataManagement.h
+/home/liron/CLionProjects/HPC/Quicksort/dataManagement.h
 

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug"/>
+				<Option working_dir="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug"/>
+				<Option working_dir="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quicksort">
-				<Option output="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug"/>
+				<Option output="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quicksort/fast">
-				<Option output="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug"/>
+				<Option output="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/quicksort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,36 +67,36 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 quicksort/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug"/>
+				<Option working_dir="/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/hpcAssignment/quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/liron/CLionProjects/HPC/Quicksort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/liron/CLionProjects/hpcAssignment/quicksort/dataManagement.h">
+		<Unit filename="/home/liron/CLionProjects/HPC/Quicksort/dataManagement.h">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/hpcAssignment/quicksort/ompQuickSort.h">
+		<Unit filename="/home/liron/CLionProjects/HPC/Quicksort/ompQuickSort.h">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/hpcAssignment/quicksort/quicksort.cpp">
+		<Unit filename="/home/liron/CLionProjects/HPC/Quicksort/quicksort.cpp">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/hpcAssignment/quicksort/sequentialQuickSort.h">
+		<Unit filename="/home/liron/CLionProjects/HPC/Quicksort/sequentialQuickSort.h">
 			<Option target="quicksort"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/hpcAssignment/quicksort/CMakeLists.txt">
+		<Unit filename="/home/liron/CLionProjects/HPC/Quicksort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-# Install script for directory: /home/liron/CLionProjects/hpcAssignment/RegularSampleSort
+# Install script for directory: /home/liron/CLionProjects/HPC/RegularSampleParallelSort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liron/CLionProjects/HPC/RegularSampleParallelSort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

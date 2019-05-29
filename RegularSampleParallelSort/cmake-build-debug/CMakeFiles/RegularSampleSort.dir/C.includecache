@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/dataManagement.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/dataManagement.h
 stdio.h
 -
 stdlib.h
 -
 
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp_RegSampleSort.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/omp_RegSampleSort.h
 omp.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/omp.h
 stdio.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/stdio.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/stdio.h
 string.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/string.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/string.h
 stdlib.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/stdlib.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/stdlib.h
 math.h
 -
 
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/regularSampleParallelSort.c
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/regularSampleParallelSort.c
 stdio.h
 -
 dataManagement.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/dataManagement.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/dataManagement.h
 omp_RegSampleSort.h
-/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/omp_RegSampleSort.h
+/home/liron/CLionProjects/HPC/RegularSampleParallelSort/omp_RegSampleSort.h
 

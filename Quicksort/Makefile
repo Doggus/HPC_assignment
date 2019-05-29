@@ -9,4 +9,3 @@ quicksort.o: sequentialQuickSort.h ompQuickSort.h dataManagement.h quicksort.cpp
 
 run:
 	./quicksort
-

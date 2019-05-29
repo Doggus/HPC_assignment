@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/regularSampleParallelSort.c" "/home/liron/CLionProjects/hpcAssignment/RegularSampleSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o"
+  "/home/liron/CLionProjects/HPC/RegularSampleParallelSort/regularSampleParallelSort.c" "/home/liron/CLionProjects/HPC/RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir/regularSampleParallelSort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
