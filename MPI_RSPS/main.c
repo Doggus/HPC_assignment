@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "MPI_RSPS.h"
-#include "MPI_quicksort.h"
 
 int main(int argc, char *argv[])
 {
-
 
     //defining arrays and their sizes:
     int len1 = 10000;

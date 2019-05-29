@@ -1,0 +1,8 @@
+//
+// Created by liron on 2019/05/29.
+//
+
+#ifndef MPI_QUICKSORT_MPI_QUICKSORT_H
+#define MPI_QUICKSORT_MPI_QUICKSORT_H
+
+#endif //MPI_QUICKSORT_MPI_QUICKSORT_H

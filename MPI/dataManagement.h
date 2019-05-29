@@ -1,6 +1,7 @@
 
 #ifndef MPI_RSPS_DATAMANAGEMENT_H
 #define MPI_RSPS_DATAMANAGEMENT_H
+
 #include <stdio.h>
 #include <stdlib.h>
 

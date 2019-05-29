@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/liron/CLionProjects/HPC/MPI/MPI.c">
+		<Unit filename="/home/liron/CLionProjects/HPC/MPI/MPI_Quicksort.h">
 			<Option target="MPI_RSPS"/>
 		</Unit>
 		<Unit filename="/home/liron/CLionProjects/HPC/MPI/MPI_RSPS.h">
 			<Option target="MPI_RSPS"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/HPC/MPI/MPI_quicksort.h">
+		<Unit filename="/home/liron/CLionProjects/HPC/MPI/dataManagement.h">
 			<Option target="MPI_RSPS"/>
 		</Unit>
-		<Unit filename="/home/liron/CLionProjects/HPC/MPI/dataManagement.h">
+		<Unit filename="/home/liron/CLionProjects/HPC/MPI/main.c">
 			<Option target="MPI_RSPS"/>
 		</Unit>
 		<Unit filename="/home/liron/CLionProjects/HPC/MPI/CMakeLists.txt">

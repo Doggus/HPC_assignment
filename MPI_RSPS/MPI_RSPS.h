@@ -16,7 +16,7 @@
 int i, j, k;
 int N = 64;
 
-void RSPS_test(int);
+void RSPS_test(int *, int);
 
 
 int cmp(const void *a, const void *b)
@@ -165,15 +165,8 @@ void phase4(int *partitions, int *partitionSizes, int p, int myId, int *array)
     return;
 }
 
-void psrs_mpi(int N)
+void psrs_mpi(int *array, int N)
 {
-
-    //defining array and their size:
-    int array[N];
-    populateArray(array, N);
-
-    float start_time;
-
     int p, myId, *partitionSizes, *newPartitionSizes, nameLength;
     int subArraySize, startIndex, endIndex, *pivots, *newPartitions;
     char processorName[MPI_MAX_PROCESSOR_NAME];
@@ -183,13 +176,7 @@ void psrs_mpi(int N)
     MPI_Comm_rank(MPI_COMM_WORLD, &myId);
     MPI_Get_processor_name(processorName, &nameLength);
 
-    if(myId==0)
-    {
-        //begin timer
-        start_time = omp_get_wtime();
-    }
-
-    //printf("Process %d is on %s\n", myId, processorName);
+    printf("Process %d is on %s\n", myId, processorName);
 
     pivots = (int *) malloc(p * sizeof(int));
     partitionSizes = (int *) malloc(p * sizeof(int));
@@ -219,29 +206,42 @@ void psrs_mpi(int N)
         phase4(newPartitions, newPartitionSizes, p, myId, array);
     }
 
+    printf("\n");
     if (p > 1)
     {
         free(newPartitions);
     }
-
     free(partitionSizes);
     free(newPartitionSizes);
     free(pivots);
 
-    if(myId==0)
-    {
-        float time = omp_get_wtime() - start_time;
-        printf("MPI Regular Sample Parallel Sort time: \n");
-        printf("Array size: %d\n", N);
-        printf("Sorted: %d\n", validate(array, N));
-        printf("Time taken: %f\n", time);
-    }
 
 }
 
-void RSPS_test(int len)
+float RSPS_RecordTime(int *arr, int len)
 {
-    psrs_mpi(len);
+    float start_time = omp_get_wtime();
+    psrs_mpi(arr, len);
+    float time = omp_get_wtime() - start_time;
+    return time;
+}
+
+void RSPS_test(int *arr, int len)
+{
+
+    populateArray(arr, len);
+
+    //Recording omp completion time
+    float time = RSPS_RecordTime(arr, len);
+
+    printf("array size: %d\n", len);
+    printf("Sorted: %d\n", validate(arr, len));
+    printf("time: %f\n", time);
+
+
+    //free(arr);
+
+
 }
 
 

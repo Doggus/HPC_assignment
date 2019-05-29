@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/liron/CLionProjects/HPC/MPI/main.c" "/home/liron/CLionProjects/HPC/MPI/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/main.c.o"
+  "/home/liron/CLionProjects/HPC/MPI_RSPS/main.c" "/home/liron/CLionProjects/HPC/MPI_RSPS/cmake-build-debug/CMakeFiles/MPI_RSPS.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

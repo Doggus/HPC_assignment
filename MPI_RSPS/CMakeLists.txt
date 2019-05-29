@@ -3,4 +3,6 @@ project(MPI_RSPS C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(MPI_RSPS main.c)
+include_directories(/usr/include/mpi/)
+
+add_executable(MPI_RSPS main.c dataManagement.h MPI_RSPS.h)

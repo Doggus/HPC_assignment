@@ -1,9 +1,9 @@
 CC=mpicc
 LIBS=-lm
 
-main: MPI.c
-	$(CC) -o MPI -fopenmp MPI.c -lm -std=c11
+main: main.c MPI_Quicksort.h MPI_RSPS.h dataManagement.h
+	$(CC) -o main -fopenmp  main.c -lm -std=c11
 
 run:
-	./MPI
+	mpirun -n 4 main
 
