@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/MPI_RSPS.dir/main.c.o  -o MPI_RSPS 

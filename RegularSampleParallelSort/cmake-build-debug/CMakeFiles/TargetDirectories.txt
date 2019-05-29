@@ -1,3 +1,0 @@
-/home/liron/CLionProjects/HPC/RegularSampleParallelSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/liron/CLionProjects/HPC/RegularSampleParallelSort/cmake-build-debug/CMakeFiles/RegularSampleSort.dir
-/home/liron/CLionProjects/HPC/RegularSampleParallelSort/cmake-build-debug/CMakeFiles/edit_cache.dir
