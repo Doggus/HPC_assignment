@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
 
-
     std::cout << "Sequential QuickSort times: " << std::endl << std::endl;
     seq_test(10000,10);
     seq_test(50000,10);

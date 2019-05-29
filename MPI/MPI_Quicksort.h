@@ -4,7 +4,6 @@
 #define MPI_RSPS_MPI_QUICKSORT_H
 
 #include "dataManagement.h"
-#include "omp.h"
 #include "mpi.h"
 #include <stdio.h>
 
@@ -236,7 +235,6 @@ void mpi_quicksort(int N)
 
     }
 
-    //-----------
     if(arrSize > 0)
         quicksort(arr, 0, arrSize-1);
 

@@ -8,7 +8,6 @@
 #include <unistd.h>
 #include "dataManagement.h"
 #include "mpi.h"
-#include "omp.h"
 
 #ifndef MPI_RSPS_MPI_RSPS_H
 #define MPI_RSPS_MPI_RSPS_H
@@ -67,7 +66,7 @@ void phase2(int *array, int startIndex, int subArraySize, int *pivots, int *part
             partitionSizes[p - 1] = subArraySize - i + 1;
             break;
         }
-        partitionSizes[index]++; 
+        partitionSizes[index]++;
     }
     free(collectedPivots);
     free(phase2Pivots);
@@ -172,7 +171,7 @@ void psrs_mpi(int N)
     int array[N];
     populateArray(array, N);
 
-    float start_time;
+    float start_time, end_time;
 
     int p, myId, *partitionSizes, *newPartitionSizes, nameLength;
     int subArraySize, startIndex, endIndex, *pivots, *newPartitions;
@@ -186,7 +185,7 @@ void psrs_mpi(int N)
     if(myId==0)
     {
         //begin timer
-        start_time = omp_get_wtime();
+        start_time = MPI_Wtime();
     }
 
     //printf("Process %d is on %s\n", myId, processorName);
@@ -230,7 +229,8 @@ void psrs_mpi(int N)
 
     if(myId==0)
     {
-        float time = omp_get_wtime() - start_time;
+        end_time = MPI_Wtime();
+        float time = end_time - start_time;
         printf("MPI Regular Sample Parallel Sort time: \n");
         printf("Array size: %d\n", N);
         printf("Sorted: %d\n", validate(array, N));
