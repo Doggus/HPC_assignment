@@ -9,4 +9,4 @@
 
 module load mpi/openmpi-4.0.1
 make
-mpirun -n 8 main.c
+mpirun -n 8 MPI

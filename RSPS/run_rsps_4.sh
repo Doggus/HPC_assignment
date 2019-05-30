@@ -9,4 +9,4 @@
 
 export OMP_NUMTHREADS=4
 make
-srun regularSampleParallelSort.c
+srun RSPS

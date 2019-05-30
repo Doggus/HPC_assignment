@@ -9,4 +9,4 @@
 
 export OMP_NUMTHREADS=8
 make
-srun quicksort.cpp
+srun quicksort
