@@ -7,6 +7,6 @@
 #SBATCH --mail-user=tldlir001@myuct.ac.za
 #SBATCH --mail-type=NONE
 
-export OMP_NUMTHREADS=2
+export OMP_NUM_THREADS=2
 make
 ./quicksort
