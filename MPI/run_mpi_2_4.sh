@@ -8,5 +8,5 @@
 #SBATCH --mail-type=NONE
 
 module load mpi/openmpi-4.0.1
-
+make
 mpirun -n 4 main.c

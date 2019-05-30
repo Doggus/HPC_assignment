@@ -8,4 +8,5 @@
 #SBATCH --mail-type=NONE
 
 export OMP_NUMTHREADS=8
+make
 srun regularSampleParallelSort.c
