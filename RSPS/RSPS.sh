@@ -7,4 +7,5 @@
 #SBATCH --mail-user=tldlir001@myuct.ac.za
 #SBATCH --mail-type=NONE
 
-srun quicksort.cpp
+Export OMP_NUMTHREADS=4
+srun regularSampleParallel.c
