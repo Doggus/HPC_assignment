@@ -77,16 +77,19 @@ void psrs_sort(int *a, int n)
             }
 
             omp_set_num_threads(p);
-            size = (n + p - 1) / p;
-            rsize = (size + p - 1) / p;
-            sample_size = p * (p - 1);
-            loc_a_ptrs = malloc(p * sizeof(int *));
-            sample = malloc(sample_size * sizeof(int));
+            if(p>0)
+            {
+                size = (n + p - 1) / p;
+                rsize = (size + p - 1) / p;
+                sample_size = p * (p - 1);
+                loc_a_ptrs = malloc(p * sizeof(int *));
+                sample = malloc(sample_size * sizeof(int));
 
-            partition_borders = malloc(p * (p + 1) * sizeof(int));
-            bucket_sizes = malloc(p * sizeof(int));
-            result_positions = malloc(p * sizeof(int));
-            pivots = malloc((p - 1) * sizeof(int));
+                partition_borders = malloc(p * (p + 1) * sizeof(int));
+                bucket_sizes = malloc(p * sizeof(int));
+                result_positions = malloc(p * sizeof(int));
+                pivots = malloc((p - 1) * sizeof(int));
+            }
 
             #pragma omp parallel
             {
