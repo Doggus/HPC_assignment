@@ -9,4 +9,4 @@
 
 export OMP_NUMTHREADS=2
 make
-srun RSPS
+./RSPS
