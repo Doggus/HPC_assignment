@@ -7,5 +7,5 @@
 #SBATCH --mail-user=tldlir001@myuct.ac.za
 #SBATCH --mail-type=NONE
 
-Export OMP_NUMTHREADS=1
+export OMP_NUMTHREADS=1
 srun regularSampleParallelSort.c
