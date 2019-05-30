@@ -11,7 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ab37819-91a6-4bd9-9200-bb8182453a01" name="Default Changelist" comment="" />
+    <list default="true" id="2ab37819-91a6-4bd9-9200-bb8182453a01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MPI_RSPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/MPI_RSPS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_mpi_2_2 .sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quicksort/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Quicksort/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RSPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RSPS/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +33,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -37,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MPI_RSPS.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+            <state relative-caret-position="604">
+              <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
               <folding>
                 <element signature="e#74#93#0" expanded="true" />
               </folding>
@@ -52,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MPI_Quicksort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="271" column="26" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="26" />
+            <state relative-caret-position="4065">
+              <caret line="271" column="26" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="26" />
               <folding>
                 <element signature="e#134#161#0" expanded="true" />
               </folding>
@@ -64,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataManagement.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="630">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
               <folding>
                 <element signature="e#70#88#0" expanded="true" />
               </folding>
@@ -92,10 +100,10 @@
         <option value="$PROJECT_DIR$/MPI_quicksort.h" />
         <option value="$PROJECT_DIR$/MPI.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/dataManagement.h" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/MPI_Quicksort.h" />
+        <option value="$PROJECT_DIR$/dataManagement.h" />
         <option value="$PROJECT_DIR$/MPI_RSPS.h" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
@@ -123,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +143,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RSPS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -192,16 +200,17 @@
       <workItem from="1559163814239" duration="43000" />
       <workItem from="1559167211575" duration="629000" />
       <workItem from="1559169365190" duration="1091000" />
+      <workItem from="1559229549526" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12168000" />
+    <option name="totallyTimeSpent" value="12569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2899834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29330382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,42 +245,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataManagement.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#70#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MPI_Quicksort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="271" column="26" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="26" />
+        <state relative-caret-position="4065">
+          <caret line="271" column="26" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="26" />
           <folding>
             <element signature="e#134#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataManagement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#70#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MPI_RSPS.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        <state relative-caret-position="604">
+          <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
           <folding>
             <element signature="e#74#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

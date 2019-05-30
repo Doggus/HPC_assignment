@@ -231,11 +231,12 @@ void psrs_mpi(int N)
     {
         end_time = MPI_Wtime();
         float time = end_time - start_time;
-        printf("MPI Regular Sample Parallel Sort time: \n");
-        printf("Array size: %d\n", N);
-        printf("Sorted: %d\n", validate(array, N));
-        printf("Time taken: %f\n", time);
-        printf("\n");
+        //printf("MPI Regular Sample Parallel Sort time: \n");
+        //printf("Array size: %d\n", N);
+        //printf("Sorted: %d\n", validate(array, N));
+        //printf("Time taken: %f\n", time);
+        writeResults(time);
+        //printf("\n");
     }
 
 }

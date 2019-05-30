@@ -13,8 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1492b7ae-1cb5-4af9-8173-9276fec2198f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPI/MPI_RSPS.h" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/MPI_RSPS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quicksort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/quicksort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/../MPI/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPI/run_mpi_2_2 .sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataManagement.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataManagement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RSPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RSPS/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +31,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quicksort.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -41,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataManagement.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="694">
+              <caret line="76" column="17" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="76" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -56,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sequentialQuickSort.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -82,6 +84,7 @@
         <option value="$PROJECT_DIR$/sequentialQuickSort.h" />
         <option value="$PROJECT_DIR$/ompQuickSort.h" />
         <option value="$PROJECT_DIR$/quicksort.cpp" />
+        <option value="$PROJECT_DIR$/dataManagement.h" />
       </list>
     </option>
   </component>
@@ -154,16 +157,18 @@
       <workItem from="1559162064385" duration="1246000" />
       <workItem from="1559163877698" duration="611000" />
       <workItem from="1559168794680" duration="570000" />
+      <workItem from="1559229543735" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3275000" />
+    <option name="totallyTimeSpent" value="3466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,6 +194,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/quicksort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequentialQuickSort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ompQuickSort.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -198,27 +220,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataManagement.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="694">
+          <caret line="76" column="17" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequentialQuickSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quicksort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

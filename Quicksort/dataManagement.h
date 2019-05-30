@@ -79,5 +79,4 @@ void createFileData(std::string filename, int numberSize)
 }
 
 
-
 #endif //QUICKSORT_DATAMANAGEMENT_H

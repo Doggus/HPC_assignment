@@ -34,4 +34,13 @@ void populateArray(int array[], int size)
     }
 }
 
+void writeResults(float result)
+{
+    FILE * fp;
+    fp = fopen ("Result.txt","w");
+
+    fprintf (fp, "%f\n", result);
+    fclose(fp);
+}
+
 #endif //MPI_RSPS_DATAMANAGEMENT_H
